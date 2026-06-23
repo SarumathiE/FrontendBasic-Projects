@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 16px 0;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    margin-right: 25px;
+    ;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#product{
+    display: flex;
+    justify-content: space-around;
+}
+.product{
+    border-width: 2px;
+    border: solid;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+button.hover{
+    background-color: red;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:fixed;bottom: 0;
+    width: 100%;
+}
